@@ -9,7 +9,11 @@ The UM981 GNSS receiver features an integrated IMU and an Inertial Navigation Sy
 
 **The Solution**
 
-This firmware acts as a bridge. It listens to the UM981 serial port at 921600 bps, extracts the required PVT (Position, Velocity, Time) data from the raw #INSPVAA packets, constructs valid NMEA messages, and sends them to a Classic Bluetooth master device.RTK Correction SetupTo achieve RTK precision, the UM981 requires incoming RTCM correction data from an NTRIP caster. 
+This firmware acts as a bridge. It listens to the UM981 serial port at 921600 bps, extracts the required PVT (Position, Velocity, Time) data from the raw #INSPVAA packets, constructs valid NMEA messages, and sends them to a Classic Bluetooth master device.
+
+**RTK Correction Setup**
+
+To achieve RTK precision, the UM981 requires incoming RTCM correction data from an NTRIP caster. 
 
 The hardware data flow is configured as follows:
 
