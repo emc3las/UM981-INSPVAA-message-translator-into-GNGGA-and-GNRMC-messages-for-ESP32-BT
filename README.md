@@ -1,0 +1,2 @@
+# UM981-INSPVAA-message-translator-into-GNGGA-and-GNRMC-messages-for-ESP32-BT
+This repository contains an Arduino IDE sketch for the ESP32 that receives an #INSPVAA message by the serial port at 921600 bps, translates it into a pair of messages $GNGGA and $GNRMC that are sent to a Classic Bluetooth master . It is designed for the ESP32 XBee installed on a simpleRTK3B Fusion board connected to an Android smartphone.
